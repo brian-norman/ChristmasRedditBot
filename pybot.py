@@ -1,9 +1,9 @@
 import praw
 import time
 
-r = praw.Reddit(user_agent = "First Bot by /u/Sokasuki2")
+r = praw.Reddit(user_agent = "First Bot by /u/userID")
 print "Logging In..."
-r.login('Sokasuki2', "yellowboy88")
+r.login('userID', "password")
 
 words_to_match = ["christmas", "merry"]
 cache = []
